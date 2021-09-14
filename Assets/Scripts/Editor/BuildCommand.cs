@@ -12,8 +12,8 @@ static class BuildCommand
     private const string BUILD_OPTIONS_ENV_VAR = "BuildOptions";
     private const string ANDROID_BUNDLE_VERSION_CODE = "BUNDLE_VERSION_CODE";
     private const string ANDROID_APP_BUNDLE = "BUILD_APP_BUNDLE";
-    //private const string SCRIPTING_BACKEND_ENV_VAR = "SCRIPTING_BACKEND";
-    private const string SCRIPTING_BACKEND_ENV_VAR = "SCRIPTING_BACKEN";
+    private const string SCRIPTING_BACKEND_ENV_VAR = "SCRIPTING_BACKEND";
+    
 
     static string GetArgument(string name)
     {
